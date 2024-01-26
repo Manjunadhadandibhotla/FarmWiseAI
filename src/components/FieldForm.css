@@ -1,0 +1,56 @@
+.field-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 800px; 
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label-container {
+  flex-basis: 100%;
+}
+
+label {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 20px;
+}
+
+.input-container {
+  flex-basis: calc(75% - 10px); 
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.label-field-data {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  flex-basis: calc(100% - 20px);
+  max-width: 200px; 
+  margin: 10px auto; 
+  background-color: #245f83;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.option1 {
+  background-color: aquamarine;
+}
